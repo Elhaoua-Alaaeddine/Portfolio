@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen } from 'lucide-react';
 
 export default function About() {
@@ -10,19 +9,18 @@ export default function About() {
           <div className="bg-gray-900 p-6 rounded-xl shadow-lg border border-gray-700">
             <h3 className="text-xl font-semibold mb-4 text-white">Career Objectives</h3>
             <p className="text-gray-400 mb-6">
-              As a recent graduate with diverse experience in software development, teaching,
+              As a recent graduate with diverse knowledge in software development, teaching,
               and creative design, I am passionate about creating innovative solutions that
               combine technical excellence with user-centered design. I am seeking
-              opportunities to leverage my unique blend of skills in a challenging software
-              development role.
+              opportunities to leverage my unique blend of skills in a challenging role.
             </p>
             <p className="text-gray-400">
               My areas of interest include:
             </p>
             <ul className="list-disc list-inside text-gray-400 mt-2 space-y-1">
               <li>Full-stack Web Development</li>
-              <li>Cloud Computing</li>
-              <li>DevOps and Automation</li>
+              <li>Python Development</li>
+              <li>IT and Hardware</li>
               <li>UI/UX Design</li>
             </ul>
           </div>
@@ -39,11 +37,11 @@ export default function About() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
-                Algorithms
+                Analysis of Algorithms
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
-                Web Development
+                Agile Software Engineering
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
@@ -51,11 +49,11 @@ export default function About() {
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
-                Software Engineering
+                Public Speaking
               </li>
               <li className="flex items-center gap-2">
                 <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
-                Machine Learning
+                Principles of Management
               </li>
             </ul>
           </div>

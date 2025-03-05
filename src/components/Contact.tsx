@@ -1,5 +1,4 @@
-import React from 'react';
-import { Mail, MapPin, Phone, Linkedin } from 'lucide-react';
+import { Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -30,7 +29,7 @@ export default function Contact() {
                     href="mailto:your.email@example.com" 
                     className="text-gray-300 hover:text-white transition-colors text-lg"
                   >
-                    your.email@example.com
+                    alaa.haoua@gmail.com
                   </a>
                 </div>
               </div>
