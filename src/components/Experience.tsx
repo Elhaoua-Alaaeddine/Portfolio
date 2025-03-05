@@ -1,11 +1,12 @@
-import React from 'react';
-import { GraduationCap, Briefcase } from 'lucide-react';
+import { Briefcase, GraduationCap } from "lucide-react";
 
 export default function Experience() {
   return (
     <section id="experience" className="py-16 bg-gray-900">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-12 text-white">Experience</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-white">
+          Experience
+        </h2>
         <div className="relative max-w-3xl mx-auto">
           {/* Timeline line */}
           <div className="absolute left-8 top-0 bottom-0 w-px bg-gray-700"></div>
@@ -20,18 +21,25 @@ export default function Experience() {
                 <div className="flex items-center gap-3 mb-4">
                   <GraduationCap className="text-blue-400" size={24} />
                   <div>
-                    <h3 className="text-xl font-semibold text-white">B.S. in Computer Science</h3>
-                    <p className="text-sm text-blue-400">2019 - 2023</p>
+                    <h3 className="text-xl font-semibold text-white">
+                      B.S. in Computer Science - Business Administration Minor
+                    </h3>
+                    <p className="text-sm text-blue-400">
+                      2020 - December 2024
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  University Name
+                  <b>Al Akhawayn University in Ifrane</b>
                   <br />
-                  GPA: 3.8/4.0
+                  GPA: 3.78/4.0
                   <br />
-                  • Dean's List: All Semesters
+                  • President's List: 2 Semesters
                   <br />
-                  • Computer Science Student Association Member
+                  • Dean's List: All Other Semesters
+                  <br />
+                  • Mechatronics Club Member
+                  <br />• 2nd Place Hack2Impact Hackathon Winner
                 </p>
               </div>
             </div>
@@ -42,18 +50,37 @@ export default function Experience() {
                 <div className="flex items-center gap-3 mb-4">
                   <Briefcase className="text-green-400" size={24} />
                   <div>
-                    <h3 className="text-xl font-semibold text-white">Software Engineering Intern</h3>
-                    <p className="text-sm text-green-400">June 2023 - August 2023</p>
+                    <h3 className="text-xl font-semibold text-white">
+                      Software Engineering Intern
+                    </h3>
+                    <p className="text-sm text-green-400">
+                      June 2024 - August 2024
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  Company Name
+                  <b>Inwi</b>
                   <br />
-                  • Developed and maintained web applications using React and Node.js
+                  • Led a team of three interns to convert a Word-based system
+                  into a web application, addressing a business need at Inwi.
                   <br />
-                  • Collaborated with cross-functional teams on feature implementation
+                  • Spearheaded the app development using Django for backend and
+                  React.js for frontend, fostering communication between
+                  employees and clients.
                   <br />
-                  • Improved application performance by 40%
+                  • Coordinated Agile processes with daily stand-ups and used
+                  Trello for task tracking and prioritization.
+                  <br />
+                  • Managed the development lifecycle of the project,
+                  maintaining a focus on timeline adherence and the delivery of
+                  core features within the set deadlines.
+                  <br />
+                  • Facilitated collaboration and communication between
+                  cross-functional teams to ensure smooth integration of backend
+                  and frontend components.
+                  <br />• Conducted code reviews and mentored other interns,
+                  improving their technical skills and ensuring best practices
+                  in software development.
                 </p>
               </div>
             </div>
@@ -64,18 +91,30 @@ export default function Experience() {
                 <div className="flex items-center gap-3 mb-4">
                   <Briefcase className="text-purple-400" size={24} />
                   <div>
-                    <h3 className="text-xl font-semibold text-white">Software Development Intern</h3>
-                    <p className="text-sm text-purple-400">June 2022 - August 2022</p>
+                    <h3 className="text-xl font-semibold text-white">
+                      Software Development Intern
+                    </h3>
+                    <p className="text-sm text-purple-400">
+                      June 2023 - August 2023
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  Company Name
+                  <b>M-AMTM</b>
                   <br />
-                  • Built and deployed microservices using Spring Boot
+                  • Managed the full software development lifecycle, from
+                  gathering requirements to defining project scope with
+                  logistics managers and stakeholders.
                   <br />
-                  • Implemented automated testing solutions
+                  • Designed system architecture and created diagrams (use case,
+                  activity) to ensure clear project planning and execution.
                   <br />
-                  • Reduced API response time by 25%
+                  • Implemented a dynamic, responsive web application using
+                  React.js, Firebase, and Bootstrap to streamline logistical
+                  operations and enhance user experience.
+                  <br />• Led testing by organizing a trial phase where the new
+                  app ran alongside legacy systems, refining the system based on
+                  real-time feedback.
                 </p>
               </div>
             </div>
@@ -86,18 +125,21 @@ export default function Experience() {
                 <div className="flex items-center gap-3 mb-4">
                   <Briefcase className="text-orange-400" size={24} />
                   <div>
-                    <h3 className="text-xl font-semibold text-white">Teaching Assistant</h3>
-                    <p className="text-sm text-orange-400">2021 - 2023 (Part-time)</p>
+                    <h3 className="text-xl font-semibold text-white">
+                      Teaching Assistant
+                    </h3>
+                    <p className="text-sm text-orange-400">
+                      January 2022 - June 2022 (Part-time)
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  University Name
+                  <b>Al Akhawayn University in Ifrane</b>
                   <br />
-                  • Assisted 50+ students with web development concepts
+                  • Graded exams, assignments, and papers.
                   <br />
-                  • Led weekly lab sessions and code reviews
-                  <br />
-                  • Created supplementary learning materials
+                  • Proofread academic documents for my assigned professors.
+                  <br />• Wrote weekly reports.
                 </p>
               </div>
             </div>
@@ -108,18 +150,21 @@ export default function Experience() {
                 <div className="flex items-center gap-3 mb-4">
                   <Briefcase className="text-pink-400" size={24} />
                   <div>
-                    <h3 className="text-xl font-semibold text-white">Graphic Designer & Video Editor</h3>
-                    <p className="text-sm text-pink-400">2020 - 2022 (Part-time)</p>
+                    <h3 className="text-xl font-semibold text-white">
+                      Graphic Designer & Video Editor
+                    </h3>
+                    <p className="text-sm text-pink-400">
+                      2020 - 2022 (Part-time)
+                    </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  Company Name
+                  Bestmedia Digital Marketing
                   <br />
                   • Created engaging visual content for social media
                   <br />
                   • Produced and edited promotional videos
-                  <br />
-                  • Managed brand identity across platforms
+                  <br />• Managed brand identity across platforms
                 </p>
               </div>
             </div>
