@@ -44,7 +44,7 @@ export default function Contact() {
                     href="tel:+1234567890" 
                     className="text-gray-300 hover:text-white transition-colors text-lg"
                   >
-                    +1 (234) 567-890
+                    +971 507 318 071
                   </a>
                 </div>
               </div>
@@ -56,14 +56,14 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-400 mb-1">Location</p>
                   <span className="text-gray-300 text-lg">
-                    City, Country
+                    Abu Dhabi, United Arab Emarates (UAE)
                   </span>
                 </div>
               </div>
               
               <div className="pt-4">
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/alaa-eddine-elhaoua/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-500 text-white rounded-xl hover:from-blue-700 hover:to-blue-600 transition-all transform hover:scale-105 shadow-lg text-lg font-medium w-full justify-center"
