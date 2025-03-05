@@ -1,13 +1,13 @@
+import { Code2, Database, Layers, Palette, Terminal, Wrench } from 'lucide-react';
 import React, { useState } from 'react';
-import { Code2, Database, Terminal, Wrench, Layers, Palette } from 'lucide-react';
 
 const skills = {
-  languages: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL', 'HTML5/CSS3'],
-  frontend: ['React', 'Next.js', 'Tailwind CSS', 'Redux', 'Vue.js', 'Responsive Design'],
-  backend: ['Node.js', 'Express', 'Django', 'RESTful APIs', 'GraphQL', 'Microservices'],
-  tools: ['Git', 'Docker', 'AWS', 'VS Code', 'Postman', 'CI/CD'],
-  databases: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase', 'Redis', 'Supabase'],
-  design: ['Figma', 'Adobe XD', 'UI/UX', 'Wireframing', 'Prototyping', 'Accessibility'],
+  languages: ['JavaScript', 'TypeScript', 'Python', 'SQL', 'HTML5/CSS3'],
+  frontend: ['ReactJS', 'React Native', 'Tailwind CSS', 'Bootstrap', 'Responsive Design'],
+  backend: ['Flask', 'Django', 'RESTful APIs'],
+  tools: ['Git', 'Jira', 'Trello', 'VS Code', 'Postman', 'Miro'],
+  databases: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase'],
+  design: ['Figma', 'Adobe Illustrator', 'UI/UX', 'Wireframing', 'Prototyping', 'Accessibility'],
 };
 
 type SkillCategory = keyof typeof skills;
