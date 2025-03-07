@@ -1,5 +1,5 @@
+import { ArrowRight, ChevronDown, Download } from 'lucide-react';
 import React from 'react';
-import { ArrowRight, Download, ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   const scrollToProjects = (e: React.MouseEvent) => {
@@ -82,7 +82,7 @@ export default function Hero() {
                 Get in Touch
               </a>
               <a
-                href="/resume.pdf"
+                href="/src/resume.pdf"
                 download
                 className="px-8 py-3 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-full hover:from-purple-600 hover:to-blue-600 transition-all transform hover:scale-105 flex items-center gap-2 shadow-lg w-full sm:w-auto justify-center"
               >

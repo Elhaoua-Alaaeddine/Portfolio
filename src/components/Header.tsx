@@ -91,7 +91,7 @@ export default function Header() {
                 <Linkedin size={20} />
               </a>
               <a
-                href="/resume.pdf"
+                href="/src/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
