@@ -1,6 +1,5 @@
-import React from 'react';
-import { Github, Linkedin, FileText, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import { FileText, Github, Linkedin, Menu, X } from 'lucide-react';
+import React, { useState } from 'react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -76,7 +75,7 @@ export default function Header() {
 
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Elhaoua-Alaaeddine"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -84,7 +83,7 @@ export default function Header() {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/alaa-eddine-elhaoua/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors"

@@ -26,7 +26,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-400 mb-1">Email</p>
                   <a 
-                    href="mailto:your.email@example.com" 
+                    href="mailto:alaa.haoua@gmail.com" 
                     className="text-gray-300 hover:text-white transition-colors text-lg"
                   >
                     alaa.haoua@gmail.com
@@ -41,7 +41,7 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-gray-400 mb-1">Phone</p>
                   <a 
-                    href="tel:+1234567890" 
+                    href="tel:+971507318071" 
                     className="text-gray-300 hover:text-white transition-colors text-lg"
                   >
                     +971 507 318 071
