@@ -1,4 +1,4 @@
-import { ArrowRight, ChevronDown, Download } from 'lucide-react';
+import { ArrowRight, Download } from 'lucide-react';
 import React from 'react';
 
 export default function Hero() {
@@ -98,11 +98,11 @@ export default function Hero() {
           </div>
         </div>
         
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
+        {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden md:block">
           <a href="#projects" onClick={scrollToProjects} className="text-gray-400 hover:text-white transition-colors">
             <ChevronDown size={24} />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

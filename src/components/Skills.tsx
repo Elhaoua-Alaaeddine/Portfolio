@@ -2,12 +2,49 @@ import { Code2, Database, Layers, Palette, Terminal, Wrench } from 'lucide-react
 import React, { useState } from 'react';
 
 const skills = {
-  languages: ['JavaScript', 'TypeScript', 'Python', 'SQL', 'HTML5/CSS3'],
-  frontend: ['ReactJS', 'React Native', 'Tailwind CSS', 'Bootstrap', 'Responsive Design'],
-  backend: ['Flask', 'Django', 'RESTful APIs'],
-  tools: ['Git', 'Jira', 'Trello', 'VS Code', 'Postman', 'Miro'],
-  databases: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase'],
-  design: ['Figma', 'Adobe Illustrator', 'UI/UX', 'Wireframing', 'Prototyping', 'Accessibility'],
+  languages: [
+    { name: 'JavaScript', logo: '/src/assets/logos/javascript.png' },
+    { name: 'TypeScript', logo: '/src/assets/logos/typescript.png' },
+    { name: 'Python', logo: '/src/assets/logos/python.png' },
+    { name: 'SQL', logo: '/src/assets/logos/sql.png' },
+    { name: 'HTML5', logo: '/src/assets/logos/html.png' },
+    { name: 'CSS3', logo: '/src/assets/logos/css.png' }
+
+  ],
+  frontend: [
+    { name: 'ReactJS', logo: '/src/assets/logos/react.png' },
+    { name: 'React Native', logo: '/src/assets/logos/react.png' },
+    { name: 'Tailwind CSS', logo: '/src/assets/logos/tailwind.png' },
+    { name: 'Bootstrap', logo: '/src/assets/logos/bootstrap.png' },
+    { name: 'Responsive Design', logo: '/src/assets/logos/responsive.png' }
+  ],
+  backend: [
+    { name: 'Flask', logo: '/src/assets/logos/flask.png' },
+    { name: 'Django', logo: '/src/assets/logos/django.png' },
+    { name: 'RESTful APIs', logo: '/src/assets/logos/rest.png' }
+  ],
+  tools: [
+    { name: 'Git', logo: '/src/assets/logos/git.png' },
+    { name: 'Jira', logo: '/src/assets/logos/jira.png' },
+    { name: 'Trello', logo: '/src/assets/logos/trello.png' },
+    { name: 'VS Code', logo: '/src/assets/logos/vscode.png' },
+    { name: 'Postman', logo: '/src/assets/logos/postman.png' },
+    { name: 'Miro', logo: '/src/assets/logos/miro.png' }
+  ],
+  databases: [
+    { name: 'MongoDB', logo: '/src/assets/logos/mongodb.png' },
+    { name: 'PostgreSQL', logo: '/src/assets/logos/postgresql.png' },
+    { name: 'MySQL', logo: '/src/assets/logos/mysql.png' },
+    { name: 'Firebase', logo: '/src/assets/logos/firebase.png' }
+  ],
+  design: [
+    { name: 'Figma', logo: '/src/assets/logos/figma.png' },
+    { name: 'Adobe Illustrator', logo: '/src/assets/logos/illustrator.png' },
+    { name: 'UI/UX', logo: '/src/assets/logos/uiux.png' },
+    { name: 'Wireframing', logo: '/src/assets/logos/wireframe.png' },
+    { name: 'Prototyping', logo: '/src/assets/logos/prototype.png' },
+    { name: 'Accessibility', logo: '/src/assets/logos/accessibility.png' }
+  ],
 };
 
 type SkillCategory = keyof typeof skills;
@@ -80,7 +117,7 @@ export default function Skills() {
         <div className="max-w-4xl mx-auto">
           <div className={`p-8 rounded-2xl shadow-lg border border-gray-700 ${activeColors.bg}`}>
             <div className="flex items-center gap-3 mb-8">
-              <div className="p-3 bg-gray-800 rounded-lg">
+              <div className="p-3 bg-gray-800 rounded-lg text-white">
                 {categories.find(c => c.id === activeCategory)?.icon}
               </div>
               <h3 className="text-2xl font-semibold text-white">
@@ -94,15 +131,18 @@ export default function Skills() {
                   key={index}
                   className="bg-gray-800/70 backdrop-blur-sm p-4 rounded-lg border border-gray-700 hover:border-gray-600 transition-all hover:transform hover:scale-105 flex items-center gap-3"
                 >
-                  {/* Logo placeholder - you can replace this with your custom PNG logos */}
-                  <div 
-                    className={`flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg ${activeColors.bg}`}
-                    id={`logo-${activeCategory}-${index}`} // Add an ID for easy targeting when replacing
-                  >
-                    {/* This div will be replaced with your custom logo */}
-                    <div className="w-6 h-6 bg-gray-700 rounded opacity-50"></div>
+                  <div className={`flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-lg ${activeColors.bg} overflow-hidden`}>
+                    <img 
+                      src={skill.logo} 
+                      alt={`${skill.name} logo`}
+                      className="w-8 h-8 object-contain"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement;
+                        target.style.display = 'none';
+                      }}
+                    />
                   </div>
-                  <span className="text-white font-medium">{skill}</span>
+                  <span className="text-white font-medium">{skill.name}</span>
                 </div>
               ))}
             </div>
