@@ -1,60 +1,38 @@
-import React, { useState } from 'react';
-import { Github, ExternalLink, ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown, ChevronUp, ExternalLink, Github } from 'lucide-react';
+import { useState } from 'react';
 
 const projects = [
   {
-    title: 'E-commerce Platform',
-    description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
+    title: 'Bust The Ghost Game',
+    description: '"Bust The Ghost" is an interactive game that utilizes Bayesian inference principles to provide clues in a hunt for the ghost using logic and probabilistic reasoning.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=400&fit=crop',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-    github: 'https://github.com/yourusername/ecommerce',
-    demo: 'https://your-ecommerce-demo.com',
-    featured: true
+    technologies: ['Unity', 'C#', 'Adobe Illustrator'],
+    github: 'https://github.com/Elhaoua-Alaaeddine/BustTheGhost',
+    demo: 'https://elhaoua-alaaeddine.github.io/BustTheGhost-WebGL-Build/',
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+    title: 'Game Achievement Tracker',
+    description: 'A web application that helps players keep track of achievements done in-game.',
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=400&fit=crop',
-    technologies: ['React', 'Firebase', 'Material-UI', 'Redux'],
-    github: 'https://github.com/yourusername/task-manager',
-    demo: 'https://your-task-manager-demo.com',
-    featured: true
+    technologies: ['React', 'Tailwind CSS'],
+    github: 'https://github.com/Elhaoua-Alaaeddine/MRAchievementTracker',
+    demo: 'https://marvel-rivals-achievement-tracker.netlify.app/',
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A weather dashboard that provides real-time weather information, forecasts, and interactive maps using multiple weather APIs.',
+    title: 'Interactive Map',
+    description: 'A simple interactive map made with html and leaflet to show information about universities founded before the year 1800',
     image: 'https://images.unsplash.com/photo-1561484930-998b6a7b22e8?w=800&h=400&fit=crop',
-    technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
-    github: 'https://github.com/yourusername/weather-dashboard',
-    demo: 'https://your-weather-demo.com',
-    featured: true
+    technologies: ['HTML', 'CSS', 'Leaflet'],
+    github: 'https://github.com/Elhaoua-Alaaeddine/InteractiveMap',
+    demo: 'https://interactive-universities-map.netlify.app/',
   },
   {
-    title: 'Social Media Analytics',
-    description: 'A comprehensive analytics dashboard for social media managers with real-time data visualization and automated reporting.',
+    title: 'U.S. States Game',
+    description: 'A simple game made with Python and the Turtle graphics library where the player tries to recall all the U.S states',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
-    technologies: ['Vue.js', 'D3.js', 'Node.js', 'PostgreSQL'],
-    github: 'https://github.com/yourusername/social-analytics',
-    demo: 'https://your-analytics-demo.com',
-    featured: false
-  },
-  {
-    title: 'AI Image Generator',
-    description: 'An AI-powered image generation tool that creates unique artwork based on text descriptions using machine learning models.',
-    image: 'https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&h=400&fit=crop',
-    technologies: ['Python', 'TensorFlow', 'React', 'FastAPI'],
-    github: 'https://github.com/yourusername/ai-image-gen',
-    demo: 'https://your-ai-demo.com',
-    featured: false
-  },
-  {
-    title: 'Fitness Tracking App',
-    description: 'A mobile-first fitness tracking application with workout planning, progress tracking, and social features.',
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=400&fit=crop',
-    technologies: ['React Native', 'Firebase', 'Redux', 'Node.js'],
-    github: 'https://github.com/yourusername/fitness-tracker',
-    demo: 'https://your-fitness-demo.com',
-    featured: false
+    technologies: ['Python', 'Pandas'],
+    github: 'https://github.com/Elhaoua-Alaaeddine/US_States_Game',
+    demo: '',
   },
 ];
 
