@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Bust The Ghost Game',
     description: '"Bust The Ghost" is an interactive game that utilizes Bayesian inference principles to provide clues in a hunt for the ghost using logic and probabilistic reasoning.',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=400&fit=crop',
+    image: 'https://platform.polygon.com/wp-content/uploads/sites/2/2024/09/gettyimages-1236470385.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400',
     technologies: ['Unity', 'C#', 'Adobe Illustrator'],
     github: 'https://github.com/Elhaoua-Alaaeddine/BustTheGhost',
     demo: 'https://elhaoua-alaaeddine.github.io/BustTheGhost-WebGL-Build/',
@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'Game Achievement Tracker',
     description: 'A web application that helps players keep track of achievements done in-game.',
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=400&fit=crop',
+    image: 'https://www.ila-americanbranch.org/wp-content/uploads/2021/06/award-scaled.jpg',
     technologies: ['React', 'Tailwind CSS'],
     github: 'https://github.com/Elhaoua-Alaaeddine/MRAchievementTracker',
     demo: 'https://marvel-rivals-achievement-tracker.netlify.app/',
@@ -21,7 +21,7 @@ const projects = [
   {
     title: 'Interactive Map',
     description: 'A simple interactive map made with html and leaflet to show information about universities founded before the year 1800',
-    image: 'https://images.unsplash.com/photo-1561484930-998b6a7b22e8?w=800&h=400&fit=crop',
+    image: 'https://img-c.udemycdn.com/course/750x422/4586378_86fc.jpg',
     technologies: ['HTML', 'CSS', 'Leaflet'],
     github: 'https://github.com/Elhaoua-Alaaeddine/InteractiveMap',
     demo: 'https://interactive-universities-map.netlify.app/',
@@ -29,7 +29,7 @@ const projects = [
   {
     title: 'U.S. States Game',
     description: 'A simple game made with Python and the Turtle graphics library where the player tries to recall all the U.S states',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
+    image: 'https://cdn.britannica.com/39/256439-131-2C8F19B3/map-United-States-flag-background.jpg',
     technologies: ['Python', 'Pandas'],
     github: 'https://github.com/Elhaoua-Alaaeddine/US_States_Game',
     demo: '',
@@ -42,9 +42,9 @@ export default function Projects() {
   
   const filters = [
     { id: 'all', label: 'All Projects' },
-    { id: 'featured', label: 'Featured' },
-    { id: 'react', label: 'React' },
-    { id: 'node', label: 'Node.js' },
+    // { id: 'featured', label: 'Featured' },
+    // { id: 'react', label: 'React' },
+    // { id: 'node', label: 'Node.js' },
   ];
   
   const filteredProjects = projects.filter(project => {
@@ -66,7 +66,7 @@ export default function Projects() {
         </p>
         
         {/* Project Filters */}
-        <div className="flex flex-wrap justify-center gap-2 mb-10">
+        {/* <div className="flex flex-wrap justify-center gap-2 mb-10">
           {filters.map(filter => (
             <button
               key={filter.id}
@@ -80,7 +80,7 @@ export default function Projects() {
               {filter.label}
             </button>
           ))}
-        </div>
+        </div> */}
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {displayedProjects.map((project, index) => (
