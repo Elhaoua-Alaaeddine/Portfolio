@@ -1,49 +1,79 @@
 import { Code2, Database, Layers, Palette, Terminal, Wrench } from 'lucide-react';
 import React, { useState } from 'react';
 
+// Import all images
+import accessibilityLogo from '../assets/logos/accessibility.png';
+import bootstrapLogo from '../assets/logos/bootstrap.png';
+import cssLogo from '../assets/logos/css.png';
+import djangoLogo from '../assets/logos/django.png';
+import figmaLogo from '../assets/logos/figma.png';
+import firebaseLogo from '../assets/logos/firebase.png';
+import flaskLogo from '../assets/logos/flask.png';
+import gitLogo from '../assets/logos/git.png';
+import htmlLogo from '../assets/logos/html.png';
+import illustratorLogo from '../assets/logos/illustrator.png';
+import javascriptLogo from '../assets/logos/javascript.png';
+import jiraLogo from '../assets/logos/jira.png';
+import miroLogo from '../assets/logos/miro.png';
+import mongodbLogo from '../assets/logos/mongodb.png';
+import mysqlLogo from '../assets/logos/mysql.png';
+import postgresqlLogo from '../assets/logos/postgresql.png';
+import postmanLogo from '../assets/logos/postman.png';
+import prototypeLogo from '../assets/logos/prototype.png';
+import pythonLogo from '../assets/logos/python.png';
+import reactLogo from '../assets/logos/react.png';
+import responsiveLogo from '../assets/logos/responsive.png';
+import restLogo from '../assets/logos/rest.png';
+import sqlLogo from '../assets/logos/sql.png';
+import tailwindLogo from '../assets/logos/tailwind.png';
+import trelloLogo from '../assets/logos/trello.png';
+import typescriptLogo from '../assets/logos/typescript.png';
+import uiuxLogo from '../assets/logos/uiux.png';
+import vscodeLogo from '../assets/logos/vscode.png';
+import wireframeLogo from '../assets/logos/wireframe.png';
+
 const skills = {
   languages: [
-    { name: 'JavaScript', logo: '/src/assets/logos/javascript.png' },
-    { name: 'TypeScript', logo: '/src/assets/logos/typescript.png' },
-    { name: 'Python', logo: '/src/assets/logos/python.png' },
-    { name: 'SQL', logo: '/src/assets/logos/sql.png' },
-    { name: 'HTML5', logo: '/src/assets/logos/html.png' },
-    { name: 'CSS3', logo: '/src/assets/logos/css.png' }
-
+    { name: 'JavaScript', logo: javascriptLogo },
+    { name: 'TypeScript', logo: typescriptLogo },
+    { name: 'Python', logo: pythonLogo },
+    { name: 'SQL', logo: sqlLogo },
+    { name: 'HTML5', logo: htmlLogo },
+    { name: 'CSS3', logo: cssLogo }
   ],
   frontend: [
-    { name: 'ReactJS', logo: '/src/assets/logos/react.png' },
-    { name: 'React Native', logo: '/src/assets/logos/react.png' },
-    { name: 'Tailwind CSS', logo: '/src/assets/logos/tailwind.png' },
-    { name: 'Bootstrap', logo: '/src/assets/logos/bootstrap.png' },
-    { name: 'Responsive Design', logo: '/src/assets/logos/responsive.png' }
+    { name: 'ReactJS', logo: reactLogo },
+    { name: 'React Native', logo: reactLogo },
+    { name: 'Tailwind CSS', logo: tailwindLogo },
+    { name: 'Bootstrap', logo: bootstrapLogo },
+    { name: 'Responsive Design', logo: responsiveLogo }
   ],
   backend: [
-    { name: 'Flask', logo: '/src/assets/logos/flask.png' },
-    { name: 'Django', logo: '/src/assets/logos/django.png' },
-    { name: 'RESTful APIs', logo: '/src/assets/logos/rest.png' }
+    { name: 'Flask', logo: flaskLogo },
+    { name: 'Django', logo: djangoLogo },
+    { name: 'RESTful APIs', logo: restLogo }
   ],
   tools: [
-    { name: 'Git', logo: '/src/assets/logos/git.png' },
-    { name: 'Jira', logo: '/src/assets/logos/jira.png' },
-    { name: 'Trello', logo: '/src/assets/logos/trello.png' },
-    { name: 'VS Code', logo: '/src/assets/logos/vscode.png' },
-    { name: 'Postman', logo: '/src/assets/logos/postman.png' },
-    { name: 'Miro', logo: '/src/assets/logos/miro.png' }
+    { name: 'Git', logo: gitLogo },
+    { name: 'Jira', logo: jiraLogo },
+    { name: 'Trello', logo: trelloLogo },
+    { name: 'VS Code', logo: vscodeLogo },
+    { name: 'Postman', logo: postmanLogo },
+    { name: 'Miro', logo: miroLogo }
   ],
   databases: [
-    { name: 'MongoDB', logo: '/src/assets/logos/mongodb.png' },
-    { name: 'PostgreSQL', logo: '/src/assets/logos/postgresql.png' },
-    { name: 'MySQL', logo: '/src/assets/logos/mysql.png' },
-    { name: 'Firebase', logo: '/src/assets/logos/firebase.png' }
+    { name: 'MongoDB', logo: mongodbLogo },
+    { name: 'PostgreSQL', logo: postgresqlLogo },
+    { name: 'MySQL', logo: mysqlLogo },
+    { name: 'Firebase', logo: firebaseLogo }
   ],
   design: [
-    { name: 'Figma', logo: '/src/assets/logos/figma.png' },
-    { name: 'Adobe Illustrator', logo: '/src/assets/logos/illustrator.png' },
-    { name: 'UI/UX', logo: '/src/assets/logos/uiux.png' },
-    { name: 'Wireframing', logo: '/src/assets/logos/wireframe.png' },
-    { name: 'Prototyping', logo: '/src/assets/logos/prototype.png' },
-    { name: 'Accessibility', logo: '/src/assets/logos/accessibility.png' }
+    { name: 'Figma', logo: figmaLogo },
+    { name: 'Adobe Illustrator', logo: illustratorLogo },
+    { name: 'UI/UX', logo: uiuxLogo },
+    { name: 'Wireframing', logo: wireframeLogo },
+    { name: 'Prototyping', logo: prototypeLogo },
+    { name: 'Accessibility', logo: accessibilityLogo }
   ],
 };
 
