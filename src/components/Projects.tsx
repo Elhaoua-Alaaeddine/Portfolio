@@ -34,6 +34,14 @@ const projects = [
     github: 'https://github.com/Elhaoua-Alaaeddine/US_States_Game',
     demo: '',
   },
+  {
+    title: 'My Guide: A Tourism App',
+    description: 'a simple React Native project designed to serve as your travel companion. It includes authentication features using Firebase.',
+    image: 'https://www.visual-craft.com/strapi/uploads/React_Native_2_c5ab49be9b.png',
+    technologies: ['Firebase', 'React Native', 'TailwindCSS'],
+    github: 'https://github.com/Elhaoua-Alaaeddine/MyGuide',
+    demo: '',
+  },
 ];
 
 export default function Projects() {
