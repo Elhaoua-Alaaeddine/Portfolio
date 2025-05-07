@@ -44,7 +44,7 @@ export default function Contact() {
                     href="tel:+971507318071" 
                     className="text-gray-300 hover:text-white transition-colors text-lg"
                   >
-                    +971 507 318 071
+                    +971 50 324 7570
                   </a>
                 </div>
               </div>
