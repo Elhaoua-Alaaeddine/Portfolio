@@ -159,7 +159,7 @@ export default function Experience() {
                   </div>
                 </div>
                 <p className="text-gray-400">
-                  Bestmedia Digital Marketing
+                  <b>Bestmedia Digital Marketing</b>
                   <br />
                   • Troubleshot hardware and software issues for all team members—diagnosing and resolving PC, laptop, and peripheral malfunctions to minimize downtime.
                   <br />
