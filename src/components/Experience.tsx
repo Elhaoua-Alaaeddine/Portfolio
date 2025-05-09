@@ -151,7 +151,7 @@ export default function Experience() {
                   <Briefcase className="text-pink-400" size={24} />
                   <div>
                     <h3 className="text-xl font-semibold text-white">
-                      Graphic Designer & Video Editor
+                    IT Specialist and WordPress Developer
                     </h3>
                     <p className="text-sm text-pink-400">
                       2020 - 2022 (Part-time)
@@ -161,10 +161,13 @@ export default function Experience() {
                 <p className="text-gray-400">
                   Bestmedia Digital Marketing
                   <br />
-                  • Created engaging visual content for social media
+                  • Troubleshot hardware and software issues for all team members—diagnosing and resolving PC, laptop, and peripheral malfunctions to minimize downtime.
                   <br />
-                  • Produced and edited promotional videos
-                  <br />• Managed brand identity across platforms
+                  • Researched technical requirements and sourced PC components (CPUs, GPUs, RAM, storage) tailored to each role’s needs, negotiating with vendors to optimize cost and performance.
+                  <br />• Coordinated with the ISP to establish and maintain reliable internet service, handling router configuration and ensuring secure network access for on-site staff.
+                  <br />• Installed, configured, and tested audio/video recording equipment (cameras, microphones, lighting rigs) to support the company’s content-creation workflows.
+                  <br />• Collaborated on the development and customization of WordPress websites, improving functionality and enhancing user experience.
+                  <br />• Integrated various plugins and themes to meet client-specific needs, ensuring optimal site performance and responsiveness.
                 </p>
               </div>
             </div>
