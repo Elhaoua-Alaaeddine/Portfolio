@@ -3,6 +3,13 @@ import { useState } from 'react';
 
 const projects = [
   {
+    title: 'Capstone: Fleet Management App',
+    description: 'A vehicle tracking system integrated and tested with the Teltonika FMB130 device to obtain real-time and store historical fleet data.',
+    image: 'https://fleetgo.com/wp-content/uploads/2022/11/Fleet-Management.webp',
+    technologies: ['React', 'TailwindCSS', 'Django', 'MySQL', 'Python', 'Leaflet'],
+    demo: '/capstone_report.pdf',
+  },
+  {
     title: 'Bust The Ghost Game',
     description: '"Bust The Ghost" is an interactive game that utilizes Bayesian inference principles to provide clues in a hunt for the ghost using logic and probabilistic reasoning.',
     image: 'https://platform.polygon.com/wp-content/uploads/sites/2/2024/09/gettyimages-1236470385.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=2400',
@@ -14,7 +21,7 @@ const projects = [
     title: 'Game Achievement Tracker',
     description: 'A web application that helps players keep track of achievements done in-game.',
     image: 'https://www.ila-americanbranch.org/wp-content/uploads/2021/06/award-scaled.jpg',
-    technologies: ['React', 'Tailwind CSS'],
+    technologies: ['React', 'TailwindCSS'],
     github: 'https://github.com/Elhaoua-Alaaeddine/MRAchievementTracker',
     demo: 'https://marvel-rivals-achievement-tracker.netlify.app/',
   },
@@ -40,7 +47,6 @@ const projects = [
     image: 'https://www.visual-craft.com/strapi/uploads/React_Native_2_c5ab49be9b.png',
     technologies: ['Firebase', 'React Native', 'TailwindCSS'],
     github: 'https://github.com/Elhaoua-Alaaeddine/MyGuide',
-    demo: '',
   },
 ];
 

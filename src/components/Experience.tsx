@@ -39,7 +39,7 @@ export default function Experience() {
                   • Dean's List: All Other Semesters
                   <br />
                   • Mechatronics Club Member
-                  <br />• 2nd Place Hack2Impact Hackathon Winner
+                  <br />• 2nd Place Hack2Impact Hackathon Winner - By Huawei
                 </p>
               </div>
             </div>
@@ -51,36 +51,19 @@ export default function Experience() {
                   <Briefcase className="text-green-400" size={24} />
                   <div>
                     <h3 className="text-xl font-semibold text-white">
-                      Software Engineering Intern
+                      Agile Software Engineer
                     </h3>
                     <p className="text-sm text-green-400">
-                      June 2024 - August 2024
+                      June 2024 - August 2024 (Internship)
                     </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
                   <b>Inwi</b>
                   <br />
-                  • Led a team of three interns to convert a Word-based system
-                  into a web application, addressing a business need at Inwi.
+                  • Led a 4-person team to replace a manual Word-based order-tracking process with a web app using Django REST, React, and MySQL.
                   <br />
-                  • Spearheaded the app development using Django for backend and
-                  React.js for frontend, fostering communication between
-                  employees and clients.
-                  <br />
-                  • Coordinated Agile processes with daily stand-ups and used
-                  Trello for task tracking and prioritization.
-                  <br />
-                  • Managed the development lifecycle of the project,
-                  maintaining a focus on timeline adherence and the delivery of
-                  core features within the set deadlines.
-                  <br />
-                  • Facilitated collaboration and communication between
-                  cross-functional teams to ensure smooth integration of backend
-                  and frontend components.
-                  <br />• Conducted code reviews and mentored other interns,
-                  improving their technical skills and ensuring best practices
-                  in software development.
+                  • Mapped requirements, ensured data integrity, tracked daily progress, and managed conflicts to meet sprint deadlines.
                 </p>
               </div>
             </div>
@@ -92,29 +75,19 @@ export default function Experience() {
                   <Briefcase className="text-purple-400" size={24} />
                   <div>
                     <h3 className="text-xl font-semibold text-white">
-                      Software Development Intern
+                      Web Developer
                     </h3>
                     <p className="text-sm text-purple-400">
-                      June 2023 - August 2023
+                      June 2023 - August 2023 (Internship)
                     </p>
                   </div>
                 </div>
                 <p className="text-gray-400">
                   <b>M-AMTM</b>
                   <br />
-                  • Managed the full software development lifecycle, from
-                  gathering requirements to defining project scope with
-                  logistics managers and stakeholders.
+                  • Built a React/Firebase application replacing a paper based logistics system.
                   <br />
-                  • Designed system architecture and created diagrams (use case,
-                  activity) to ensure clear project planning and execution.
-                  <br />
-                  • Implemented a dynamic, responsive web application using
-                  React.js, Firebase, and Bootstrap to streamline logistical
-                  operations and enhance user experience.
-                  <br />• Led testing by organizing a trial phase where the new
-                  app ran alongside legacy systems, refining the system based on
-                  real-time feedback.
+                  • Performed parallel control tests, documented discrepancies and remediated validation gaps.
                 </p>
               </div>
             </div>
@@ -136,10 +109,7 @@ export default function Experience() {
                 <p className="text-gray-400">
                   <b>Al Akhawayn University in Ifrane</b>
                   <br />
-                  • Graded exams, assignments, and papers.
-                  <br />
-                  • Proofread academic documents for my assigned professors.
-                  <br />• Wrote weekly reports.
+                  •Assisted in Discrete Mathematics and Engineering Economics: graded assignments, held weekly office hours, and explained complex concepts to diverse student groups.
                 </p>
               </div>
             </div>
@@ -161,13 +131,9 @@ export default function Experience() {
                 <p className="text-gray-400">
                   <b>Bestmedia Digital Marketing</b>
                   <br />
-                  • Troubleshot hardware and software issues for all team members—diagnosing and resolving PC, laptop, and peripheral malfunctions to minimize downtime.
+                  • Installed, configured, and tested audio/video recording equipment (cameras, microphones, lighting rigs) to support the company’s content-creation workflows.
                   <br />
-                  • Researched technical requirements and sourced PC components (CPUs, GPUs, RAM, storage) tailored to each role’s needs, negotiating with vendors to optimize cost and performance.
-                  <br />• Coordinated with the ISP to establish and maintain reliable internet service, handling router configuration and ensuring secure network access for on-site staff.
-                  <br />• Installed, configured, and tested audio/video recording equipment (cameras, microphones, lighting rigs) to support the company’s content-creation workflows.
-                  <br />• Collaborated on the development and customization of WordPress websites, improving functionality and enhancing user experience.
-                  <br />• Integrated various plugins and themes to meet client-specific needs, ensuring optimal site performance and responsiveness.
+                  • Troubleshot hardware and software issues for all team members; diagnosing and resolving PC, laptop, and peripheral malfunctions to minimize downtime.
                 </p>
               </div>
             </div>
